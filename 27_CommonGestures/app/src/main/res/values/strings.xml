@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">27_CommonGestures</string>
+    <string name="on_down">onDown</string>
+    <string name="on_fling">onFling</string>
+    <string name="on_long_press">onLongPress</string>
+    <string name="on_scroll">onScroll</string>
+    <string name="on_show_press">onShowPress</string>
+    <string name="on_single_tap_up">onSingleTapUp</string>
+    <string name="on_double_tap">onDoubleTap</string>
+    <string name="on_double_tap_event">onDoubleTapEvent</string>
+    <string name="on_single_tap_confirmed">onSingleTapConfirmed</string>
+</resources>
