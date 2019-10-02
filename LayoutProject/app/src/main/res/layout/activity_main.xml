@@ -9,10 +9,11 @@
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="322dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="32dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="16dp"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -22,6 +23,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:background="@color/colorGray"
             android:text="@string/button_1" />
 
         <Button
@@ -30,6 +32,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:background="@color/colorGray"
             android:text="@string/button_2" />
     </LinearLayout>
 
@@ -37,8 +40,9 @@
         android:id="@+id/tableLayout"
         android:layout_width="320dp"
         android:layout_height="70dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="16dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout">
 
@@ -99,15 +103,13 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="276dp"
-        android:layout_height="200dp"
-        android:layout_marginTop="32dp"
+        android:layout_width="212dp"
+        android:layout_height="195dp"
         android:contentDescription="@string/image_description"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tableLayout"
-        app:layout_constraintVertical_bias="0.485"
         app:srcCompat="@drawable/avengers_endgame_logo" />
+
 </android.support.constraint.ConstraintLayout>
